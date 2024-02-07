@@ -1,0 +1,18 @@
+body {
+    background-color: darkgrey;
+}
+
+ul {
+    margin: 0; 
+    padding: 0; 
+}
+
+ul li a {
+    color: blue; /* Change link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make link text bold */
+}
+
+ul li a:hover {
+    color: rgb(182, 74, 7); /* Change link color on hover */
+}
