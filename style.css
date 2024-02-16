@@ -11,6 +11,7 @@ ul li a {
     color: blue; /* Change link color */
     text-decoration: none; /* Remove underline */
     font-weight: bold; /* Make link text bold */
+    padding-bottom: 40;
 }
 
 ul li a:hover {
