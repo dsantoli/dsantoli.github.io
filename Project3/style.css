@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(156, 165, 173);
+}
+
+h1 {
+  background: linear-gradient(to right, red, white, blue);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 55px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+p {
+  font-size: 25px;
+  line-height: 2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom-img {
+  margin-left: 70px; 
+}
