@@ -10,6 +10,34 @@ h1 {
   font-size: 55px;
 }
 
+h2 {
+  text-align: center;
+
+}
+
+@keyframes moveAndScale {
+  0%, 100% {
+    transform: translateX(0) scale(1);
+    color: blue;
+  }
+  50% {
+    transform: scale(1);
+    color: white;
+  }
+  75% {
+    transform: scale(.5);
+    color: red;
+  }
+}
+
+.moving-text {
+  width: 100%;
+  left: 0;
+  animation: moveAndScale 5s linear infinite;
+  font-size: 20px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .row {
   display: flex;
 }
