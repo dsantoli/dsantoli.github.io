@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(88, 131, 168);
+}
+
+h1 {
+  background: linear-gradient(to right, red, white, blue);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 55px;
+}
+
+h2 {
+  text-align: center;
+} 
+
+@keyframes moveAndScale {
+  0%, 100% {
+    transform: translateX(0) scale(1);
+    color: blue;
+  }
+  50% {
+    transform: scale(1);
+    color: white;
+  }
+  75% {
+    transform: scale(.5);
+    color: red;
+  }
+}
+
+.moving-text {
+  width: 100%;
+  left: 0;
+  animation: moveAndScale 5s linear infinite;
+  font-size: 20px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+p {
+  font-size: 25px;
+  line-height: 2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom-img {
+  margin-left: 70px; 
+}
