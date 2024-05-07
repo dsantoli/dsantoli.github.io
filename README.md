@@ -13,5 +13,7 @@ You can create a page about yourself or about any famous character from history 
 [Project4:](https://dsantoli.github.io/Project4/) Create an "About Me" page using Bootstrap 5 to create a responsive web page. Create the About Me page again, where the responsive version modifies layout for narrow pages like phone browsers.Include a table of contents and and a navigation bar if possible. You can use your imagination to add additional Bootstrap elements. 
 
 Project5: Get the quote app running on a device of your choice. You can get it running on Codespaces if you like. Make sure the app works correctly with respect to logins, passwords, adding quotes, etc. Add any new features you think might be helpful. Use Bootstrap to make the application look nice.
+
+To run project 5 navigate to Project5 folder and run ./start.sh and open the development link.
  
 
