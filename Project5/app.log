@@ -1,0 +1,32 @@
+2024-05-02 16:01:11,837 - INFO - register button hit
+2024-05-02 16:02:24,317 - INFO - register button hit
+2024-05-02 16:02:24,319 - INFO - All entries in the user collection:
+2024-05-02 16:02:24,321 - INFO - {'_id': ObjectId('6633f0693184392a155335c9'), 'user': 'dsantoli', 'hashed_password': '66099026ced26ba9ad776abfa3f767f85157ccc88530cc467e673beb4ad12f3a', 'salt': '3344c8ECD22eAA839E476C70adb4e37E'}
+2024-05-02 16:06:43,509 - INFO - register button hit
+2024-05-02 16:16:56,974 - INFO - register button hit
+2024-05-02 16:17:24,147 - INFO - register button hit
+2024-05-02 16:17:55,106 - INFO - register button hit
+2024-05-02 16:18:26,996 - INFO - register button hit
+2024-05-02 16:20:21,970 - INFO - register button hit
+2024-05-02 16:21:09,875 - INFO - register button hit
+2024-05-02 17:14:21,362 - INFO - register button hit
+2024-05-02 17:14:34,841 - INFO - register button hit
+2024-05-02 17:14:34,843 - INFO - All entries in the user collection:
+2024-05-02 17:14:34,843 - INFO - {'_id': ObjectId('6633f0693184392a155335c9'), 'user': 'dsantoli', 'hashed_password': '66099026ced26ba9ad776abfa3f767f85157ccc88530cc467e673beb4ad12f3a', 'salt': '3344c8ECD22eAA839E476C70adb4e37E'}
+2024-05-02 17:14:34,844 - INFO - {'user': 'asantoli', 'hashed_password': 'b2ededd1a1a6e7e2e75d5d9a3af2e61b11076dc4a8e44a869259411590a03bad', 'salt': 'd63CfC1b4bC7f2a4d8BFDE639f3Ea7b1', '_id': ObjectId('6634023a7d63c9c79edabc5d')}
+2024-05-02 17:22:30,353 - INFO - register button hit
+2024-05-02 17:23:05,674 - INFO - register button hit
+2024-05-02 17:23:54,252 - INFO - register button hit
+2024-05-02 17:26:36,390 - INFO - register button hit
+2024-05-07 12:06:45,656 - INFO - register button hit
+2024-05-07 12:08:28,710 - INFO - register button hit
+2024-05-07 12:08:28,720 - INFO - All entries in the user collection:
+2024-05-07 12:08:28,720 - INFO - {'_id': ObjectId('6633f0693184392a155335c9'), 'user': 'dsantoli', 'hashed_password': '66099026ced26ba9ad776abfa3f767f85157ccc88530cc467e673beb4ad12f3a', 'salt': '3344c8ECD22eAA839E476C70adb4e37E'}
+2024-05-07 12:08:28,720 - INFO - {'_id': ObjectId('6634023a7d63c9c79edabc5d'), 'user': 'asantoli', 'hashed_password': 'b2ededd1a1a6e7e2e75d5d9a3af2e61b11076dc4a8e44a869259411590a03bad', 'salt': 'd63CfC1b4bC7f2a4d8BFDE639f3Ea7b1'}
+2024-05-07 12:08:28,721 - INFO - {'user': 'testuser', 'hashed_password': 'fecb8d3503747efd044485f92e8236f723cc51dce18b882c1b4f656a16649772', 'salt': 'feFAA9CAEaB7354De20FBBbad988c43f', '_id': ObjectId('663a51fc1c70d692547a9fc1')}
+2024-05-07 12:27:17,465 - INFO - lgoin button hit
+2024-05-07 12:30:54,752 - INFO - lgoin button hit
+2024-05-07 12:33:05,895 - INFO - register button hit
+2024-05-07 12:33:57,336 - INFO - lgoin button hit
+2024-05-07 12:34:04,163 - INFO - lgoin button hit
+2024-05-07 12:40:38,553 - INFO - lgoin button hit

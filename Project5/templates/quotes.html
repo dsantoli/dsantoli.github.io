@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .quote-text {
+            font-size: 1.2em;
+        }
+
+        .quote-author {
+            font-style: italic;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-edit,
+        .btn-delete {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Quotes</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Owner</th>
+                    <th>Quote</th>
+                    <th>Author</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in data %}
+                <tr>
+                    <td>{{ item["owner"] }}</td>
+                    <td class="quote-text">{{ item["text"] }}</td>
+                    <td class="quote-author">{{ item["author"] }}</td>
+                    <td class="actions">
+                        <a href="/edit/{{ item['_id'] }}" class="btn btn-primary btn-edit"><i class="material-icons">edit</i></a>
+                        <a href="/delete/{{ item['_id'] }}" class="btn btn-danger btn-delete"><i class="material-icons">delete</i></a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <div class="text-center">
+            <a href="/add" class="btn btn-success">Add a new quote</a>
+        </div>
+        <hr>
+        <p class="text-center">User: {{ user }} (<a href="/logout">Logout</a>)</p>
+    </div>
+</body>
+</html>
